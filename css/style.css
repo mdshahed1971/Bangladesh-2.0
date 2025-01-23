@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Fira Sans", serif;
+    background-color: #F1F1F3;
+}
+main{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+/* header start */
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.header h3{
+    color: #0E0E0E;
+    font-size: 32px;
+    font-weight: 700;
+}
+.b-btn{
+    color: #006A50;
+font-size: 18px;
+font-weight: 600;
+text-decoration: none;
+border-radius: 6px;
+padding: 5px 8px;
+border: 1px solid #006A50;
+}
+.b-btn:hover{
+    background-color: cadetblue;
+    color: aliceblue;
+    transition: .3s;
+}
+/* header end */
+/* banner start */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 24px;
+background: #C6E4D6;
+padding: 80px 100px;
+margin-bottom: 80px;
+}
+.b-img{
+    width: 30%;
+}
+.b-img img{
+    width: 100%;
+}
+.b-content h5{
+    color: rgba(14, 14, 14, 0.50);
+font-family: "Fira Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.b-content h2{
+    color: #0E0E0E;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 14px;
+    margin-bottom: 26px;
+}
+.common-btn{
+    text-decoration: none;
+    color: #FFF;
+font-size: 18px;
+font-weight: 600;
+border-radius: 8px;
+background: #006A50;
+padding: 15px 34px
+}
+/* banner end */
+/* piller start */
+.piller h3{
+    color: #0E0E0E;
+font-size: 33px;
+font-weight: 700;
+margin-bottom: 30px;
+}
+/* piller end */
+/* innovation start */
+.innovation{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+}
+.i-content{
+padding: 24px;
+gap: 24px;
+border-radius: 16px;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: #FFF;
+}
+.i-content h4{
+    color: rgba(14, 14, 14, 0.80);
+font-size: 20px;
+font-weight: 700;
+margin-top: 20px;
+margin-bottom: 12px;
+}
+.i-content p{
+    color: rgba(14, 14, 14, 0.70);
+font-size: 16px;
+font-weight: 400;
+}
+/* innovation end */
