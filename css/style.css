@@ -32,7 +32,7 @@ padding: 5px 8px;
 border: 1px solid #006A50;
 }
 .b-btn:hover{
-    background-color: cadetblue;
+background-color: cadetblue;
     color: aliceblue;
     transition: .3s;
 }
@@ -76,11 +76,16 @@ border-radius: 8px;
 background: #006A50;
 padding: 15px 34px
 }
+.common-btn:hover{
+    background-color: chocolate;
+    color: aliceblue;
+    transition: .3s;
+}
 /* banner end */
 /* piller start */
 .piller h3{
     color: #0E0E0E;
-font-size: 33px;
+font-size: 35px;
 font-weight: 700;
 margin-bottom: 30px;
 }
@@ -111,3 +116,153 @@ font-size: 16px;
 font-weight: 400;
 }
 /* innovation end */
+/* vision start */
+.vision h3{
+    color: #0E0E0E;
+font-size: 35px;
+font-weight: 700;
+}
+.vision p{
+    color: rgba(14, 14, 14, 0.70);
+font-size: 16px;
+font-weight: 400;
+margin-top: 20px;
+margin-bottom: 32px;
+}
+/* vision end */
+/* future start */
+.future{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+/* digital start */
+.digital{
+padding: 32px;
+gap: 24px;
+border-radius: 16px;
+border: 0px solid #5490F5;
+background: rgba(84, 144, 245, 0.20);
+}
+.digital h4{
+    color: rgba(14, 14, 14, 0.80);
+font-size: 20px;
+font-weight: 700;
+margin-top: 24px;
+}
+.digital p{
+color: rgba(14, 14, 14, 0.70);
+font-size: 16px;
+font-weight: 400;
+margin-top: 12px;
+margin-bottom: 24px;
+}
+.d-btn{
+color: #FFF;
+font-size: 16px;
+font-weight: 600;
+border-radius: 8px;
+background: #5490F5;
+padding: 11px 20px;
+text-decoration: none;
+}
+.d-btn:hover{
+    background-color: black;
+    transition: .3s;
+}
+/* digital end */
+/* energy start */
+.energy{
+border-radius: 16px;
+border: 0px solid #09A15C;
+background: #C6E4D6;
+padding: 32px;
+}
+.energy h4{
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+.energy p{
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+.e-btn{
+    border-radius: 8px;
+background: #09A15C;
+padding: 11px 20px;
+text-decoration: none;
+color: #FFF;
+font-size: 16px;
+font-weight: 600;
+}
+.e-btn:hover{
+    background-color: brown;
+    color:white;
+    transition: .3s;
+}
+/* energy end */
+/* modern start */
+.modern{
+    border-radius: 16px;
+border: 0px solid #FFC239;
+background: #F7EBCF;
+padding: 24px;
+}
+.modern h4{
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+.modern P{
+    color: rgba(14, 14, 14, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+.m-btn{
+    color: #FFF;
+font-size: 16px;
+font-weight: 600;
+border-radius: 8px;
+background: #FFC239;
+padding: 11px 20px;
+text-decoration: none;
+}
+.m-btn:hover{
+    background-color: #09A15C;
+    color: white;
+    transition: .3s;
+}
+/* modern end */
+/* future end */
+/* speech start */
+.speech{
+    border-radius: 16px;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: #FFF;
+padding:48px 24px;
+background-image: url(/img/quote-bg.png);
+background-repeat: no-repeat;
+margin-bottom: 80px;
+}
+.speech p{
+    color: rgba(14, 14, 14, 0.80);
+font-size: 16px;
+font-weight: 400;
+}
+.speech h4{
+    color: rgba(14, 14, 14, 0.80);
+font-size: 20px;
+font-weight: 600px;
+margin-top: 12px;
+margin-bottom: 5px;
+}
+/* speech end */
