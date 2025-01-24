@@ -516,7 +516,7 @@ border: none;
 margin-bottom: 10px;
 }
 #email:hover{
-    background-color: lemonchiffon;
+    background-color: burlywood;
     transition: .3s;
 }
 #Subscribe{
@@ -533,3 +533,21 @@ margin-left: -7px;
     background-color: sienna;
 }
 /* newsletter end */
+/* footer start */
+footer{
+    background: #FFF;
+    padding: 50px 160px;
+}
+.bangla h3{
+    color: #0E0E0E;
+font-size: 32px;
+font-weight: 700;
+margin-bottom: 32px;
+text-align: center;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  gap: 23px;
+}
+/* footer end */
