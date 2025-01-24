@@ -266,3 +266,97 @@ margin-top: 12px;
 margin-bottom: 5px;
 }
 /* speech end */
+/* news start */
+.news h2{
+    color: #0E0E0E;
+font-size: 37px;
+font-weight: 700;
+}
+.news p{
+    color: rgba(14, 14, 14, 0.70);
+font-size: 16px;
+font-weight: 400;
+margin-top: 20px;
+margin-bottom: 32px;
+}
+/* news end */
+/* satelite start */
+.satelite{
+    display: flex;
+    border-radius: 24px;
+background: #FFF;
+padding: 48px;
+margin-bottom: 24px;
+gap: 32px;
+}
+.s-img{
+    width: 35%;
+}
+.s-img img{
+    width:95%;
+    border-radius: 24px;
+}
+.s-content{
+    width: 65%;
+}
+/* time start */
+.time{
+    display: flex;
+    gap: 12px;
+}
+/* time end */
+.s-content h3{
+    color: rgba(14, 14, 14, 0.80);
+font-size: 32px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.s-content p{
+    color: rgba(14, 14, 14, 0.70);
+font-size: 16px;
+font-weight: 400;
+margin-top: 10px;
+}
+.para{
+margin-bottom: 32px;
+}
+.s-btn{
+    color: #FFF;
+font-size: 18px;
+font-weight: 600;
+border-radius: 8px;
+background: #006A50;
+padding: 13px 26px;
+text-decoration: none;
+}
+.s-btn:hover{
+    background-color: steelblue;
+    color:whitesmoke;
+    transition: .3s;
+}
+/* satelite end */
+/* Launches start */
+.Launches{
+    display: flex;
+    border-radius: 24px;
+background: #FFF;
+padding: 48px;
+margin-bottom: 24px;
+gap: 32px;
+margin-bottom: 80px;
+}
+.l-btn{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #006A50;
+    padding: 13px 26px;
+}
+.l-btn:hover{
+    background-color: indianred;
+    color: whitesmoke;
+    transition: .3s;
+}
+/* Launches end */
