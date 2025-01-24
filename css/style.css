@@ -453,6 +453,10 @@ background: #FFF;
 padding: 20px 40px;
 margin-bottom: 32px;
 }
+.amount:hover{
+    background-color: lightblue;
+    transition: .3s;
+}
 .amount p{
     text-align: center;
     color: rgba(14, 14, 14, 0.30);
@@ -464,6 +468,7 @@ font-weight: 400;
 .taka{
     display: flex;
     justify-content: center;
+    margin-bottom: 80px;
 }
 .t-btn{
     border-radius: 8px;
@@ -480,3 +485,51 @@ text-decoration: none;
     transition: .3s;
 }
 /* taka end */
+/* newsletter start */
+.newsletter{
+    text-align: center;
+    border-radius: 24px;
+background: #C6E4D6;
+padding: 80px 100px;
+margin-bottom: 80px;
+}
+.newsletter h2{
+    color: #0E0E0E;
+font-size: 37px;
+font-weight: 700;
+}
+.newsletter p{
+    color: rgba(14, 14, 14, 0.70);
+font-size: 16px;
+font-weight: 400;
+margin-top: 16px;
+margin-bottom: 24px;
+}
+#email{
+    border-radius: 8px 0px 0px 8px;
+background: #FFF;
+padding: 18px 40px;
+color: rgba(14, 14, 14, 0.30);
+font-size: 16px;
+font-weight: 400;
+border: none;
+margin-bottom: 10px;
+}
+#email:hover{
+    background-color: lemonchiffon;
+    transition: .3s;
+}
+#Subscribe{
+    border-radius: 0px 8px 8px 0px;
+background: #006A50;
+padding: 17px 34px;
+color: #FFF;
+font-size: 18px;
+font-weight: 600;
+border: none;
+margin-left: -7px;
+}
+#Subscribe:hover{
+    background-color: sienna;
+}
+/* newsletter end */
