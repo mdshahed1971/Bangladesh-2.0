@@ -360,3 +360,123 @@ margin-bottom: 80px;
     transition: .3s;
 }
 /* Launches end */
+/* today start */
+.today{
+    text-align: center;
+}
+.today h2{
+    color: #0E0E0E;
+font-size: 37px;
+font-weight: 700;
+}
+.today p{
+    color: rgba(14, 14, 14, 0.70);
+font-size: 16px;
+font-weight: 400;
+margin-top: 24px;
+margin-bottom: 32px;
+}
+/* today end */
+/* Donate start */
+.Donate{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.d-content{
+    border-radius: 16px;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: #FFF;
+padding: 40px;
+}
+.d-content h2{
+    color: rgba(14, 14, 14, 0.80);
+font-size: 37px;
+font-weight: 700;
+}
+.d-content:hover{
+    background-color: burlywood;
+    transition: .3s;
+    color: white;
+}
+.o-content{
+    border-radius: 16px;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: #C6E4D6;
+padding: 40px;
+}
+.o-content h2{
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 37px;
+    font-weight: 700;
+}
+.o-content:hover{
+    background-color: cornflowerblue;
+    transition: .3s;
+}
+.n-content{
+    border-radius: 16px;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: #FFF;
+padding: 40px;
+}
+.n-content h2{
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 37px;
+    font-weight: 700;
+}
+.n-content:hover{
+    background-color: indianred;
+    transition: .3s;
+}
+.a-content{
+    border-radius: 16px;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: #FFF;
+padding: 40px;
+}
+.a-content h2{
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 37px;
+    font-weight: 700;
+}
+.a-content:hover{
+    background-color: lightblue;
+    transition:.3s ;
+}
+/* Donate end */
+/* amount start */
+.amount{
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+background: #FFF;
+padding: 20px 40px;
+margin-bottom: 32px;
+}
+.amount p{
+    text-align: center;
+    color: rgba(14, 14, 14, 0.30);
+font-size: 20px;
+font-weight: 400;
+}
+/* amount end */
+/* taka start */
+.taka{
+    display: flex;
+    justify-content: center;
+}
+.t-btn{
+    border-radius: 8px;
+border: 1px solid rgba(14, 14, 14, 0.10);
+background: #006A50;
+padding: 17px 34px;
+color: #FFF;
+font-size: 18px;
+font-weight: 600;
+text-decoration: none;
+}
+.t-btn:hover{
+    background-color: tomato;
+    transition: .3s;
+}
+/* taka end */
